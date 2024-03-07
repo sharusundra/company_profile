@@ -24,11 +24,10 @@ class company_profile extends StatelessWidget {
 
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-
                   Padding(padding: EdgeInsets.only(top: 20)),
                   CircleAvatar(
                     backgroundImage: AssetImage('images/tidylifejpg.jpg'),
-                    radius: 60,
+                    radius: 80,
                   ),
                   Padding(padding: EdgeInsets.all(10)),
                   Text(
